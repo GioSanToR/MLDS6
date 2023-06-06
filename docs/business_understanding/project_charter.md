@@ -2,19 +2,19 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Generación de música automática
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Implementar un modelo que permita la generación de fragmentos musicales para piano a partir de ciertos parámetros introducidos por el usuario.
+Utilizar una red neuronal LSTM como modelo de Deep Learning
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+- El dataset se trata de obras para piano de compositores  principalmente del clasicismo y del romanticismo en formato MIDI que se encuentran disponibles en Kaggle en el siguiente enlace: https://www.kaggle.com/soumikrakshit/classical-music-midi 
+- Se espera implementar un modelo de creación automática de pequeños fragmentos musicales usando diferentes párameteros como intervalos, acordes, ritmos, tempo, entre otros
 
 ### Excluye:
 
@@ -22,7 +22,7 @@
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+Se utilizará un modelo que incluye una red neuronal LSTM
 
 ## Cronograma
 
@@ -38,8 +38,8 @@ Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse d
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Giovanny Sanabria -- Líder del proyecto]
+- 
 
 ## Presupuesto
 
