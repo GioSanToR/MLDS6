@@ -2,7 +2,7 @@
 
 ## Base de datos 1
 
-**Agregar una descripción de la tabla o fuente de datos.
+**Los datos son archivos MIDI (.mid) de 19 compositores, en total 295 archivos
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
