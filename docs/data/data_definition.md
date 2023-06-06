@@ -2,7 +2,7 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+- [ ] Los datos se obtuvieron de Kaggle:  https://www.kaggle.com/soumikrakshit/classical-music-midi, consiste en una colección de MIDIs para piano de compositores clásicos y románticos. 
 
 ## Especificación de los scripts para la carga de datos
 
