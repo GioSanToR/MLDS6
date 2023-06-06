@@ -13,7 +13,7 @@ Los datos son archivos MIDI (.mid) de 19 compositores, en total 295 archivos. A 
 
 **Agregar una descripción de la tabla o fuente de datos.
 
-| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| Folder | Name | Format | Size | Source |
 | --- | --- | --- | --- | --- |
 | variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
