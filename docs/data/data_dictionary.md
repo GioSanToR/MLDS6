@@ -15,7 +15,7 @@ Los datos son archivos MIDI (.mid) de 19 compositores, en total 295 archivos. A 
 
 | Folder | Name | Format | Size | Source |
 | --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| mozart | mz_311_1.mid | MIDI | 28.963KB | Kaggle |
 | variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
