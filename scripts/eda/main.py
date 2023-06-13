@@ -44,10 +44,9 @@ recurrence = list(freq.values())
 for i in range(30,200,20):
   print(i,":",len(list(filter(lambda x:x[1]>=i,freq.items()))))
 #gráfica
-plt.figure(figsize=(18,3),facecolor="#97BACB")
+plt.figure(figsize=(18,3))
 bins = np.arange(30,max(recurrence), 50) 
 plt.hist(recurrence, bins=bins, color="#97BACB")
-plt.axvline(x=100,color="#DBACC1")
 plt.title("Distribución de las notas")
 plt.xlabel("Frecuencia")
 plt.ylabel("Número de notas")
