@@ -14,7 +14,7 @@ Los datos de entrada consisten en las notas de los archivos MIDI procesados
 
 ## Variable objetivo
 
-Los datos de salida consisten en las notas geenradas por el modelo
+Los datos de salida consisten en las notas generadas por el modelo
 
 ## Evaluación del modelo
 
@@ -24,7 +24,7 @@ Para evaluar el modelo se utiliza la métrica Accuracy
 
 ### Resultados de evaluación
 
-Se utilizó Keras tuner para la búsqueda de hiperparámetros obteniendo una valor de 288 para las unidades de las capas LSTM y una tasa de aprendizaje de 0.03, con lo cual se obtiene un accuracy de 0.56 en los datos de validación (con un optimizador Adam y 100 epochs)
+Se utilizó Keras Tuner para la búsqueda de hiperparámetros obteniendo una valor de 288 para las unidades de las capas LSTM y una tasa de aprendizaje de 0.003, con lo cual se obtiene un accuracy de 0.56 en los datos de validación (con un optimizador Adam y 100 epochs)
 
 ## Análisis de los resultados
 
@@ -32,7 +32,7 @@ El modelo presenta una predicción de las notas aceptable para la generación de
 
 ## Conclusiones
 
-Se recomienda aumentar el número de Epochs y el número de archivos MIDI analizados
+Se recomienda aumentar el número de Epochs durante el entrenamiento del modelo y el número de archivos MIDI analizados
 
 ## Referencias
 
