@@ -10,15 +10,16 @@ Se busca generar música a partir de archivos MIDI para piano de compositores cl
 
 ## Descripción del Modelo
 
-En esta sección se describirá el modelo final que se desarrolló para resolver el problema planteado. Se debe incluir una descripción detallada del modelo, la metodología utilizada y las técnicas empleadas.
+El modelo para la generación de música final es un modelo de Deep Learning con dos capas LSTM, dos capas de Dropout y dos capas densas con activaciones relu y softmax respectivamente, en el cual se definieron 288 para las unidades de las capas LSTM, durante el entrenamiento se empleó un optimizador Adam con una tasa de aprendizaje de 0.003 y 100 epochs.
+
 
 ## Evaluación del Modelo
 
-En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
+Se obtiene un accuracy de 0.56 en los datos de validación.
 
 ## Conclusiones y Recomendaciones
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
+El modelo requiere un entrenamiento durante más epochs y más archivos MIDI para mejorar el accuracy en los datos de validación.
 
 ## Referencias
 
