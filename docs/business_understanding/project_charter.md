@@ -28,18 +28,17 @@ Se utilizará un modelo que incluye una red neuronal LSTM
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Entendimiento del negocio y carga de datos | 1 semana | del 31 de mayo al 6 de junio |
+| Preprocesamiento, análisis exploratorio | 1 semana | del 7 de junio al 13 de junio |
+| Modelamiento y extracción de características | 1 semana | del 14 de junio al 20 de junio |
+| Despliegue | 1 semana | del 21 de junio al 27 de junio |
+| Evaluación y entrega final | 1 semana | del 28 de junio al 4 de julio |
 
 Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
 
 ## Equipo del Proyecto
 
-- Giovanny Sanabria -- Líder del proyecto]
-- 
+- Giovanny Sanabria -- Líder del proyecto
 
 ## Presupuesto
 
