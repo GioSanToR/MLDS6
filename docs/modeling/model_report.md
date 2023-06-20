@@ -23,4 +23,11 @@ El modelo requiere un entrenamiento durante más epochs y más archivos MIDI par
 
 ## Referencias
 
-En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.
+Páginas web:
+ https://data-flair.training/blogs/automatic-music-generation-lstm-deep-learning/ 
+ https://www.kaggle.com/code/deadprstkrish/music-generation-using-lstm
+
+Artículos:
+
+BHAGWAT, P et al. A Survey on Automatic Music Transcription. IRE Journals, Volume 6 Issue 11. May 2023
+ 
