@@ -6,7 +6,7 @@ En esta sección se presentará un resumen de los resultados obtenidos del model
 
 ## Descripción del Problema
 
-En esta sección se describirá el problema que se buscó resolver con el modelo final. Se debe incluir una descripción detallada del problema, el contexto en el que se desarrolla, los objetivos que se persiguen y la justificación del modelo.
+Se busca generar música a partir de archivos MIDI para piano de compositores clásicos y románticos. Para este fin se utilizan modelos de Deep Learning que implementan redes neuronales LSTM (long short-term memory)
 
 ## Descripción del Modelo
 
