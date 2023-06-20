@@ -4,36 +4,40 @@ Este documento contiene los resultados del modelo baseline.
 
 ## Descripción del modelo
 
-El modelo baseline es el primer modelo construido y se utiliza para establecer una línea base para el rendimiento de los modelos posteriores.
+El modelo para la generación de música consiste en un modelo de Deep Learning con dos capas LSTM, dos capas de Dropout y dos capas densas con activaciones relu y softmax respectivamente.
+
+![model](https://github.com/GioSanToR/MLDS6/assets/126033865/6a1a165a-6f2d-47ab-940a-77b76c47d176)
 
 ## Variables de entrada
 
-Lista de las variables de entrada utilizadas en el modelo.
+Los datos de entrada consisten en las notas de los archivos MIDI procesados
 
 ## Variable objetivo
 
-Nombre de la variable objetivo utilizada en el modelo.
+Los datos de salida consisten en las notas geenradas por el modelo
 
 ## Evaluación del modelo
 
 ### Métricas de evaluación
 
-Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
+Para evaluar el modelo se utiliza la métrica Accuracy
 
 ### Resultados de evaluación
 
-Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
+Se utilizó Keras tuner para la búsqueda de hiperparámetros obteniendo una valor de 288 para las unidades de las capas LSTM y una tasa de aprendizaje de 0.03, con lo cual se obtiene un accuracy de 0.56 en los datos de validación (con un optimizador Adam y 100 epochs)
 
 ## Análisis de los resultados
 
-Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo.
+El modelo presenta una predicción de las notas aceptable para la generación de música a partir de los archivos MIDI analizados.
 
 ## Conclusiones
 
-Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
+Se recomienda aumentar el número de Epochs y el número de archivos MIDI analizados
 
 ## Referencias
 
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
+Para construir el modelo base se utilizaron las siguiente páginas web:
+https://data-flair.training/blogs/automatic-music-generation-lstm-deep-learning/
+https://www.kaggle.com/code/deadprstkrish/music-generation-using-lstm
 
-Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
+
