@@ -14,7 +14,7 @@
 
 - **Archivo principal:** El despliegue del modelo está en el archivo main.py
 - **Rutas de acceso a los archivos:** El código se encuentra en 'src/nombre_paquete/deployment/main.py'
-- **Variables de entorno:**  X_test, el usuario ingresa el número de notas de la melodía, funciones note_prediction(n) y midi_gen(n)
+- **Variables de entorno:** Se requiere la variable X_test, el usuario debe ingresar el número de notas de la melodía, se requieren las funciones note_prediction(n) y midi_gen(n)
 
 ## Documentación del despliegue
 
