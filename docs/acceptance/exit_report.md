@@ -7,8 +7,8 @@ A continuación se describen los resultados del proyecto Music Generation desarr
 ## Resultados del proyecto
 
 - En cada etapa se entregaron los documentos requeridos en formato .ipynb y .py, además se utilizó el formato sugerido para realizar las contribuciones en cada etapa del proyecto 
-- El modelo final, basado en una red neuronal LSTM, alcanzó una exactitud de 0.57 en los datos de validación, lo cual es aceptable para le generación de música automática.
-- Se pudieron generar melodías en formato MIDI que tienen algunos elementos característicos del compositor elegido (Edvard Grieg) pero son muy diferentes e incluso en ocasiones se escuchan notas "equivocadas" o armonías que no son convencionales en el estilo romántico-nacionalista, en el cual está enmarcada la obra del compositor estudiado.
+- El modelo final, basado en una red neuronal LSTM, alcanzó una exactitud de 0.57 en los datos de validación, lo cual es aceptable para la generación de música automática.
+- Se pudieron generar melodías en formato MIDI las cuales tienen algunos elementos característicos del compositor elegido (Edvard Grieg) pero son muy diferentes e incluso en ocasiones se escuchan notas "equivocadas" o armonías que no son convencionales en el estilo romántico-nacionalista, en el cual está enmarcada la obra del compositor estudiado.
 
 ## Lecciones aprendidas
 
