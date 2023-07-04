@@ -2,31 +2,26 @@
 
 ## Resumen Ejecutivo
 
-Este informe describe los resultados del proyecto de machine learning y presenta los principales logros y lecciones aprendidas durante el proceso.
+A continuación se describen los resultados del proyecto Music Generation desarrollado durante el tercer módulo del diplomado en Machine Learning and Data Science avanzado.
 
 ## Resultados del proyecto
 
-- Resumen de los entregables y logros alcanzados en cada etapa del proyecto.
-- Evaluación del modelo final y comparación con el modelo base.
-- Descripción de los resultados y su relevancia para el negocio.
+- En cada etapa se entregaron los documentos requeridos en formato .ipynb y .py, además se utilizó el formato sugerido para realizar las contribuciones en cada etapa del proyecto 
+- El modelo final, basado en una red neuronal LSTM, alcanzó una exactitud de 0.57 en los datos de validación, lo cual es aceptable para le generación de música automática.
+- Se pudieron generar melodías en formato MIDI que tienen algunos elementos característicos del compositor elegido (Edvard Grieg) pero son muy diferentes e incluso en ocasiones se escuchan notas "equivocadas" o armonías que no son convencionales en el estilo romántico-nacionalista, en el cual está enmarcada la obra del compositor estudiado.
 
 ## Lecciones aprendidas
 
-- Identificación de los principales desafíos y obstáculos encontrados durante el proyecto.
-- Lecciones aprendidas en relación al manejo de los datos, el modelamiento y la implementación del modelo.
-- Recomendaciones para futuros proyectos de machine learning.
+- La gran cantidad de datos que se generan a partir de los archivo MIDI impidió que se pudieran incluir en el proyecto otros compositores o más obras del compositor estudiado. 
+- En la selección de los archivos MIDI se observó que si el estilo compositivo no es muy uniforme, se obtienen exactitudes muy bajas, alrededor de 0.2, por lo cual se decidió utilizar las composiciones de Edvard Grieg para el presente proyecto
+- En la generación de música automática se tienen mejores resultados si los datos utilizados en el modelo LSTM son uniformes en cuanto a género y estilo y a sus elementos compositivos, ya que de lo contrario se producen composiciones automáticas con sonidos que un oyente podría identificar como notas equivocadas o armonías extrañas.
 
 ## Impacto del proyecto
 
-- Descripción del impacto del modelo en el negocio o en la industria.
-- Identificación de las áreas de mejora y oportunidades de desarrollo futuras.
+- La música generada automáticamente puede emplearse como base para composiciones más elaboradas en la industria del entretenimiento, videojuegos, cine, entre otros.
 
 ## Conclusiones
 
-- Resumen de los resultados y principales logros del proyecto.
-- Conclusiones finales y recomendaciones para futuros proyectos.
+- Se logró implementar un modelo LSTM para la generación de música automática.
+- El modelo se desplegó mediante fastAPI en dónde el usuario puede descargar el archivo MIDI generado automáticamente con el número de notas deseado como parámetro.
 
-## Agradecimientos
-
-- Agradecimientos al equipo de trabajo y a los colaboradores que hicieron posible este proyecto.
-- Agradecimientos especiales a los patrocinadores y financiadores del proyecto.
